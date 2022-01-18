@@ -10,7 +10,7 @@ button.addEventListener('click', function () {
     document.getElementById("direction").style.color = "#A6A6A6";
 });
 
-let header = document.getElementById("myHeader");
+const header = document.getElementById("myHeader");
 
 window.addEventListener('scroll', function() {
   if (window.pageYOffset >= 720) {
@@ -20,6 +20,12 @@ window.addEventListener('scroll', function() {
   }
 });
 
+const reg = /[A-Za-zA-Яа-яЁё]/g;
+const phone_number = document.getElementById("phone");
+
+phone_number.oninput = function() {
+  this.value = this.value.replace(reg, '');
+}
 
 
 
