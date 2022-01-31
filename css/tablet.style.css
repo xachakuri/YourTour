@@ -65,7 +65,7 @@ h3 {
 .menu a {
     margin-right: 30px;
 }
-.nav {
+.header_wrarpper {
     margin-top: 25px;
     margin-bottom: 30px;
     width: 918px;
@@ -117,7 +117,7 @@ h3 {
 #section-stories {
     margin-top: 135px;
 }
-#section-form {
+#section-tour-search-form {
     margin-top: 135px;
 }
 #section-reviews {

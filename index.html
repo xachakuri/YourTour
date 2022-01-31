@@ -20,16 +20,18 @@
 <body>
     <header class="header" id="myHeader">
         <div class="container">
-            <nav class="nav">
-                <img src="images/YourTour.svg" alt="" class="logo">
+            <div class="header_wrarpper">
+                <img src="images/YourTour.svg" alt="Логотип компании" class="logo">
+                <nav class="nav">
                 <div class="menu p-normal ">
                     <a href="#cards-section">Туры</a>
                     <a href="#section-form">Создать тур</a>
                     <a href="#section-reviews">Отзывы</a>
                     <a href="#section-stories">Истории</a>
                 </div>
-                <a href="tel:+79999999999" class="tel p-normal">+7 999 999 99 99</a>
             </nav>
+                <a href="tel:+79999999999" class="tel p-normal">+7 999 999 99 99</a>
+            </div>
         </div>
     </header>
     <main>
@@ -49,26 +51,26 @@
                     <h2>Выбери свой тур</h2>
                     <ul class="types_of_tours p-big">
                         <li>
-                            <a href="">Популярные</a>
+                            <a href="#">Популярные</a>
                         </li>
                         <li>
                             <a href="">Авторские</a>
                         </li>
                         <li>
-                            <a href="">Походы</a>
+                            <a href="#">Походы</a>
                         </li>
                         <li>
-                            <a href="">Сплавы</a>
+                            <a href="#">Сплавы</a>
                         </li>
                         <li>
-                            <a href="">Велопрогулки</a>
+                            <a href="#">Велопрогулки</a>
                         </li>
                     </ul>
                 </div>
                 <section class="cards ">
-                    <a href="/" class="card ">
+                    <a href="#" class="card ">
                         <div class="card_img">
-                            <img src="images/card%20tour%20photo-1.jpg" alt="">
+                            <img src="images/card%20tour%20photo-1.jpg" alt="Фургон на фоне моря">
                         </div>
                         <div class="card_information">
                             <h3>
@@ -78,12 +80,12 @@
                         </div>
                         <div class="details">
                             <p class="p-big">Подробнее</p>
-                            <img src="images/Vector.svg" alt="">
+                            <img src="images/Vector.svg" alt="Стрелка">
                         </div>
                     </a>
-                    <a href="/" class="card">
+                    <a href="#" class="card">
                         <div class="card_img">
-                            <img src="images/card%20tour%20photo-2.jpg" alt="">
+                            <img src="images/card%20tour%20photo-2.jpg" alt="Девушка в пустыне">
                         </div>
                         <div class="card_information">
                             <h3>
@@ -93,12 +95,12 @@
                         </div>
                         <div class="details">
                             <p class="p-big">Подробнее</p>
-                            <img src="images/Vector.svg" alt="">
+                            <img src="images/Vector.svg" alt="Узкая улица">
                         </div>
                     </a>
-                    <a href="/" class="card">
+                    <a href="#" class="card">
                         <div class="card_img">
-                            <img src="images/card%20tour%20photo-3.jpg" alt="">
+                            <img src="images/card%20tour%20photo-3.jpg" alt="Скалы на фоне моря">
                         </div>
                         <div class="card_information">
                             <h3>
@@ -108,12 +110,12 @@
                         </div>
                         <div class="details">
                             <p class="p-big">Подробнее</p>
-                            <img src="images/Vector.svg" alt="">
+                            <img src="images/Vector.svg" alt="Стрелка">
                         </div>
                     </a>
-                    <a href="/" class="card">
+                    <a href="#" class="card">
                         <div class="card_img">
-                            <img src="images/card%20tour%20photo-4.jpg" alt="">
+                            <img src="images/card%20tour%20photo-4.jpg" alt="Узкая улица">
                         </div>
                         <div class="card_information">
                             <h3>
@@ -123,12 +125,12 @@
                         </div>
                         <div class="details">
                             <p class="p-big">Подробнее</p>
-                            <img src="images/Vector.svg" alt="">
+                            <img src="images/Vector.svg" alt="Стрелка">
                         </div>
                     </a>
-                    <a href="/" class="card">
+                    <a href="#" class="card">
                         <div class="card_img">
-                            <img src="images/card%20tour%20photo-5.jpg" alt="">
+                            <img src="images/card%20tour%20photo-5.jpg" alt="Домики в горах">
                         </div>
                         <div class="card_information">
                             <h3>
@@ -138,12 +140,12 @@
                         </div>
                         <div class="details">
                             <p class="p-big">Подробнее</p>
-                            <img src="images/Vector.svg" alt="">
+                            <img src="images/Vector.svg" alt="Стрелка">
                         </div>
                     </a>
-                    <a href="/" class="card">
+                    <a href="#" class="card">
                         <div class="card_img">
-                            <img src="images/card%20tour%20photo-6.jpg" alt="">
+                            <img src="images/card%20tour%20photo-6.jpg" alt="Человек на пирсе на фоне гор">
                         </div>
                         <div class="card_information">
                             <h3>
@@ -153,13 +155,13 @@
                         </div>
                         <div class="details">
                             <p class="p-big">Подробнее</p>
-                            <img src="images/Vector.svg" alt="">
+                            <img src="images/Vector.svg" alt="Стрелка">
                         </div>
                     </a>
                 </section>
             </div>
         </section>
-        <section id="section-form">
+        <section id="section-tour-search-form">
             <div class="container">
                 <div class="collect_tour wrapper_title">
                     <h2>Собери свой тур</h2>
@@ -196,11 +198,11 @@
                     </div>
                     <div class="wrapper_input-box">
                         <div class="input-box">
-                            <label for="date_from">Дата от</label>
+                            <label>Дата от</label>
                             <input type="date" required >
                         </div>
                         <div class="input-box">
-                            <label for="date_to">Дата до</label>
+                            <label>Дата до</label>
                             <input type="date" required >
                         </div>
                     </div>
@@ -229,8 +231,8 @@
                         </label>
                     </div>
                     <div class="form_buttons">
-                        <input type="submit" class="submit_button big_button" value="Найти тур">
-                        <input type="reset" class="reset_button big_button" id="reset_btn">
+                        <button type="submit" class="submit_button big_button">Найти тур</button>
+                        <button type="reset" class="reset_button big_button" id="reset_btn">Сбросить</button>
                     </div>
                 </form>
             </div>
@@ -254,7 +256,7 @@
                         <div class="review_information">
                             <h3>Мария</h3>
                             <p class="p-small">Тур: Вдали от дома </p>
-                            <img src="images/review%20photo-1.jpg" alt="">
+                            <img src="images/review%20photo-1.jpg" alt="Фотография Марии">
                         </div>
                     </div>
                     <div class="review_card">
@@ -274,7 +276,7 @@
                         <div class="review_information">
                             <h3>Павел</h3>
                             <p class="p-small">Тур: Путешествие в горы </p>
-                            <img src="images/review%20photo-2.jpg" alt="">
+                            <img src="images/review%20photo-2.jpg" alt="Фотография Павла">
                         </div>
                     </div>
                 </div>
@@ -288,23 +290,23 @@
             </div>
             <div class="photos">
                 <div class="photo_row_first">
-                    <img src="images/travel%20photo-1.jpg" alt="">
-                    <img src="images/travel%20photo-2.jpg" alt="" class="disabled">
-                    <img src="images/travel%20photo-3.jpg" alt="">
-                    <img src="images/travel%20photo-4.jpg" alt="">
+                    <img src="images/travel%20photo-1.jpg" alt="Самолет над морем">
+                    <img src="images/travel%20photo-2.jpg" alt="Вид из палатки на пустыню" >
+                    <img src="images/travel%20photo-3.jpg" alt="Человек на скалах на фоне солнца">
+                    <img src="images/travel%20photo-4.jpg" alt="Дорога в поле, окруженном горами">
                 </div>
                 <div class="photo_row_second">
-                    <img src="images/travel%20photo-5.jpg" alt="">
-                    <img src="images/travel%20photo-6.jpg" alt="">
-                    <img src="images/travel%20photo-7.jpg" alt="" class="disabled">
-                    <img src="images/travel%20photo-8.jpg" alt="">
-                    <img src="images/travel%20photo-13.jpg" alt="">
+                    <img src="images/travel%20photo-5.jpg" alt="Два человека на утесе на фоне моря">
+                    <img src="images/travel%20photo-6.jpg" alt="Девушка рассматривает карту в машине">
+                    <img src="images/travel%20photo-7.jpg" alt="Пешеходный мостик ведущий в лес" >
+                    <img src="images/travel%20photo-8.jpg" alt="Молодая пара около фургона с палаткой на крыше">
+                    <img src="images/travel%20photo-13.jpg" alt="Узкая улица с брусчаткой">
                 </div>
                 <div class="photo_row_third">
-                    <img src="images/travel%20photo-9.jpg" alt="">
-                    <img src="images/travel%20photo-10.jpg" alt="">
-                    <img src="images/travel%20photo-11.jpg" alt="">
-                    <img src="images/travel%20photo-12.jpg" alt="" class="disabled">
+                    <img src="images/travel%20photo-9.jpg" alt="Улица с двухэтажными домами и большим количеством зелени">
+                    <img src="images/travel%20photo-10.jpg" alt="Человек на пирсе на фоне гор">
+                    <img src="images/travel%20photo-11.jpg" alt="Небольшая улица с большим количеством людей">
+                    <img src="images/travel%20photo-12.jpg" alt="Девушка на надувном круге с веслом">
                 </div>
             </div>
         </section>
@@ -318,7 +320,7 @@
                 <div class="stories">
                     <div class="story">
                         <div class="story_img">
-                            <img src="images/story%20photo-1.jpg" alt="">
+                            <img src="images/story%20photo-1.jpg" alt="Девушка на пляже с палаткой на фоне моря">
                         </div>
                         <div class="story_information">
                             <h3>
@@ -335,7 +337,7 @@
                         </div>
                         <a href="#" class="story_details">
                             <p class="p-big">Подробнее</p>
-                            <img src="images/Vector.svg" alt="">
+                            <img src="images/Vector.svg" alt="Стрелка">
                         </a>
                         <ul class="social p-normal">
                             <li><a href="#">instagram</a></li>
@@ -345,7 +347,7 @@
                     </div>
                     <div class="story">
                         <div class="story_img">
-                            <img src="images/story%20photo-2.jpg" alt="">
+                            <img src="images/story%20photo-2.jpg" alt="Компания с гитарой у костра в темное время суток">
                         </div>
                         <div class="story_information">
                             <h3>
@@ -357,7 +359,7 @@
                         </div>
                         <a href="#" class="story_details">
                             <p class="p-big">Подробнее</p>
-                            <img src="images/Vector.svg" alt="">
+                            <img src="images/Vector.svg" alt="Стрелка">
                         </a>
                         <ul class="social p-normal">
                             <li><a href="#">instagram</a></li>
@@ -366,7 +368,7 @@
                     </div>
                     <div class="story">
                         <div class="story_img">
-                            <img src="images/story%20photo-3.jpg" alt="">
+                            <img src="images/story%20photo-3.jpg" alt="Фотография пляжа в вечернее время">
                         </div>
                         <div class="story_information">
                             <h3>
@@ -378,7 +380,7 @@
                         </div>
                         <a href="#" class="story_details">
                             <p class="p-big">Подробнее</p>
-                            <img src="images/Vector.svg" alt="">
+                            <img src="images/Vector.svg" alt="Стрелка">
                         </a>
                         <ul class="social p-normal">
                             <li><a href="#">instagram</a></li>
@@ -387,32 +389,32 @@
                         </ul>
                     </div>
                 </div>
-        <div class="section_connection">
-            <img src="images/footer%20photo.jpg" alt="">
+            </section>
+        <section class="section_connection">
+            <img src="images/footer%20photo.jpg" alt="Домики на равнине с озером и деревьями">
             <div class="connection">
                 <h3> Пора в путешествие вместе с нами!</h3>
                 <p class="p-normal">Напиши на почту и узнай подробности на
                     <a href="mailto:yourtour@gmail.com">yourtour@gmail.com</a>
                 </p>
             </div>
-        </div>
+        </section>
     </div>
-    </section>
     </main>
     <footer class="footer">
         <div class="wrapper_footer">
             <p class="p-normal">Наши социальные сети</p>
             <ul class="social_footer p-normal">
                 <li>
-                    <img src="images/inst.svg" alt="">
+                    <img src="images/inst.svg" alt="Instagram логотип">
                     <a href="#">instagram</a>
                 </li>
                 <li>
-                    <img src="images/fb.svg" alt="">
+                    <img src="images/fb.svg" alt="Facebook логотип">
                     <a href="#"> facebook</a>
                 </li>
                 <li>
-                    <img src="images/vk.svg" alt="">
+                    <img src="images/vk.svg" alt="Вконтакте логотип">
                     <a href="#">vkontakte</a>
                 </li>
             </ul>

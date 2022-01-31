@@ -1,12 +1,12 @@
-const select = document.getElementById('direction');
+const tour_search_form_select = document.getElementById('direction');
 
-select.addEventListener('change', function() {
-  select.style.color = "#000"
+tour_search_form_select.addEventListener('change', function() {
+  tour_search_form_select.style.color = "#000"
 });
 
-const button = document.getElementById('reset_btn');
+const tour_search_form_reset_btn = document.getElementById('reset_btn');
 
-button.addEventListener('click', function () {
+tour_search_form_reset_btn.addEventListener('click', function () {
     document.getElementById("direction").style.color = "#A6A6A6";
 });
 
@@ -21,9 +21,9 @@ window.addEventListener('scroll', function() {
 });
 
 const reg = /[A-Za-zA-Яа-яЁё]/g;
-const phone_number = document.getElementById("phone");
+const tour_search_form_phone = document.getElementById("phone");
 
-phone_number.oninput = function() {
+tour_search_form_phone.oninput = function() {
   this.value = this.value.replace(reg, '');
 }
 

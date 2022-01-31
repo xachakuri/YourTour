@@ -96,7 +96,7 @@ h3 {
 .menu a:last-child {
     margin-right: 0px;
 }
-.nav {
+.header_wrarpper {
     display: flex;
     margin-top: 32.5px;
     margin-bottom: 32.5px;
@@ -300,7 +300,7 @@ h3 {
 .collect_tour {
     max-width: 476px;
 }
-#section-form {
+#section-tour-search-form {
     margin-top: 75px;
 }
 .page_form {
